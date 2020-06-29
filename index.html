@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>to2rent</title>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Condensed:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo header__logo">
+      <a href="#" class="logo__link">
+        <img src="images/logo.svg" alt="logo" class="logo__link-img" />
+      </a>
+    </div>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__list-item">
+          <a href="#" class="menu__list-link menu__list-link--active">О нас</a>
+        </li>
+        <li class="menu__list-item">
+          <a href="#" class="menu__list-link">Дома</a>
+        </li>
+        <li class="menu__list-item">
+          <a href="#" class="menu__list-link">Квартиры</a>
+        </li>
+        <li class="menu__list-item">
+          <a href="#" class="menu__list-link">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="slider">
+    <div class="slider__item" style="background-image: url(images/slider-item_1.jpg);"></div>
+    <div class="slider__item" style="background-image: url(images/slider-item_2.jpg);"></div>
+    <div class="slider__item" style="background-image: url(images/slider-item_3.jpg);"></div>
+  </section>
+
+  <section class="search">
+    <div class="search__inner">
+      <form class="search__form">
+        <label for="enter-sity" class="search__form-label">Поиск аппартаментов</label>
+        <input type="text" class="search__form-input" id="enter-sity" placeholder="Введите город" />
+        <button class="search__form-submit" type="submit">Найти</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="popular">
+    <h3 class="popular__title">
+      Самые популярные варианты
+    </h3>
+    <div class="container">
+      <div class="popular__inner">
+        <div class="popular__item">
+          <img src="images/popular-1.jpg" alt="" class="popular__img" />
+          <h5 class="popular__item-title">Апартаменты <br> Москва</h5>
+          <a href="#" class="popular__link">Детали</a>
+        </div>
+
+        <div class="popular__item">
+          <img src="images/popular-2.jpg" alt="" class="popular__img" />
+          <h5 class="popular__item-title">Апартаменты <br> Киев</h5>
+          <a href="#" class="popular__link">Детали</a>
+        </div>
+
+        <div class="popular__item">
+          <img src="images/popular-3.jpg" alt="" class="popular__img" />
+          <h5 class="popular__item-title">Коттедж Modern<br>Лос Анджелес</h5>
+          <a href="#" class="popular__link">Детали</a>
+        </div>
+
+        <div class="popular__item">
+          <img src="images/popular-4.jpg" alt="" class="popular__img" />
+          <h5 class="popular__item-title">Коттедж Семейный<br>Лондон</h5>
+          <a href="#" class="popular__link">Детали</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reason">
+    <div class="container">
+      <div class="reason__inner">
+        <div class="reason__item">
+          <div class="reason__title">
+            <img src="images/clock.png" alt="clock" class="reason__title-image">
+            <div class="reason__title-text">
+              Мы экономим Ваше&nbspвремя и Ваши деньги
+            </div>
+          </div>
+          <p class="reason__description">Вы можете легко подобрать себе самую лучшую недвижимость для аренды на нашем
+            сайте по выгодной цене. Наши&nbspменеджеры с удовольствием помогут Вам и ответят на&nbspвсе вопросы.</p>
+          <a href="#" class="reason__more">Подробнее</a>
+        </div>
+
+        <div class="reason__item">
+          <div class="reason__title">
+            <img src="images/globe.png" alt="globe" class="reason__title-image">
+            <div class="reason__title-text">
+              Арендуйте лучшую недвижимость в&nbspкрупных городах
+            </div>
+          </div>
+          <p class="reason__description">Наша база элитной недвижимости насчитывает более 5000&nbspвариантов в крупных
+            городах мира.Мы поможем Вам выбрать самую лучшую, также предоставим дополнительный сервис.</p>
+          <a href="#" class="reason__more">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
