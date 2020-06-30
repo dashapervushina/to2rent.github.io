@@ -262,3 +262,31 @@ body {
   height: 30px;
   background-image: url(../images/arrow-black.svg);
 }
+
+.best {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  text-align: right;
+}
+
+.best__title {
+  max-width: 492px;
+  margin-left: auto;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+  padding-top: 68px;
+  padding-bottom: 15px;
+}
+
+.best__link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  padding: 16px 18px;
+  display: inline-block;
+}
